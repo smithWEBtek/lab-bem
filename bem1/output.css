@@ -1,0 +1,22 @@
+body {
+  font: 1em Helvetica, sans-serif; }
+
+h1 {
+  color: #02027e; }
+
+p {
+  font-family: monospace; }
+
+.tips {
+  background: radial-gradient(#f3dbdb, #bcd0e2, #a6a6db);
+  color: 3px solid #bbe7bb;
+  padding: 5px;
+  width: 80%; }
+
+.tips__tip {
+  color: #1c5c1c; }
+
+.tips__tip--last {
+  font-style: oblique; }
+
+/*# sourceMappingURL=output.css.map */

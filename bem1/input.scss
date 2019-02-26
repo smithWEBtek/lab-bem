@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(2, 2, 126);
+$secondary-color: rgb(113, 226, 113);
+
+body {
+  font: 1em $font-stack;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+p {
+  font-family: monospace;
+}
+
+.tips {
+  background: radial-gradient(rgb(243, 219, 219), #bcd0e2, rgb(166, 166, 219));
+  color: 3px solid rgb(187, 231, 187);
+  padding: 5px;
+  width: 80%;
+}
+
+.tips__tip{
+  color: rgb(28, 92, 28);
+}
+
+.tips__tip--last{
+   font-style: oblique;
+}
